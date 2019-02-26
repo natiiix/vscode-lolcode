@@ -1,3 +1,9 @@
-## Release Notes
-### 1.0.0
+# Release Notes
+
+## 1.0.0
+
 - Initial Release
+
+## 1.0.1
+
+- Improve comment support
