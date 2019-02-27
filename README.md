@@ -11,7 +11,8 @@ An extension for VS Code which provides support for the LOLCODE esoteric languag
 
 ## Features
 
-- Syntax Highlighting
+- Syntax highlighting
+- Snippets for some of the most common statements
 - Single-line comments (`Ctrl+/`) and comment blocks (`Shift+Alt+A`) support
 
 ## How to use this extension

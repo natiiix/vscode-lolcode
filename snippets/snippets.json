@@ -1,0 +1,184 @@
+{
+    "Source_Code_Template": {
+        "prefix": "hai",
+        "body": [
+            "HAI 1.2",
+            "",
+            "$0",
+            "",
+            "KTHXBYE"
+        ],
+        "description": "Source Code Template (assumes LOLCODE specification version 1.2)"
+    },
+    "Hello_World": {
+        "prefix": "helloworld",
+        "body": [
+            "HAI 1.2",
+            "  CAN HAS STDIO?",
+            "  VISIBLE \"HAI WORLD!!!1!\"",
+            "KTHXBYE$0"
+        ],
+        "description": "Hello World Code Example (from official LOLCODE website)"
+    },
+    "Variable_Declaration": {
+        "prefix": "var",
+        "body": [
+            "I HAS A ${1:name} ITZ ${0:value}"
+        ],
+        "description": "Variable Declaration"
+    },
+    "Print": {
+        "prefix": "print",
+        "body": [
+            "VISIBLE ${0:value}"
+        ],
+        "description": "Print Statement"
+    },
+    "Input": {
+        "prefix": "input",
+        "body": [
+            "GIMMEH ${0:name}"
+        ],
+        "description": "Read User Input Statement"
+    },
+    "Import": {
+        "prefix": "import",
+        "body": [
+            "CAN HAS ${1:name}?$0"
+        ],
+        "description": "Import Statement"
+    },
+    "Sum": {
+        "prefix": "sum",
+        "body": [
+            "SUM OF ${1:first} AN ${0:second}"
+        ],
+        "description": "Sum / Addition Statement"
+    },
+    "Difference": {
+        "prefix": "diff",
+        "body": [
+            "DIFF OF ${1:first} AN ${0:second}"
+        ],
+        "description": "Difference / Subtraction Statement"
+    },
+    "Product": {
+        "prefix": "prod",
+        "body": [
+            "PRODUKT OF ${1:first} AN ${0:second}"
+        ],
+        "description": "Product / Multiplication Statement"
+    },
+    "Division": {
+        "prefix": "div",
+        "body": [
+            "QUOSHUNT OF ${1:first} AN ${0:second}"
+        ],
+        "description": "Division Statement"
+    },
+    "Modulo": {
+        "prefix": "mod",
+        "body": [
+            "MOD OF ${1:first} AN ${0:second}"
+        ],
+        "description": "Modulo Statement"
+    },
+    "Max": {
+        "prefix": "max",
+        "body": [
+            "BIGGR OF ${1:first} AN ${0:second}"
+        ],
+        "description": "Max Statement"
+    },
+    "Min": {
+        "prefix": "min",
+        "body": [
+            "SMALLR OF ${1:first} AN ${0:second}"
+        ],
+        "description": "Min Statement"
+    },
+    "Equality_Comparison": {
+        "prefix": "eq",
+        "body": [
+            "BATH SAEM ${1:first} AN ${0:second}"
+        ],
+        "description": "Equality Comparison (==)"
+    },
+    "Inequality_Comparison": {
+        "prefix": "ne",
+        "body": [
+            "DIFFRINT ${1:first} AN ${0:second}"
+        ],
+        "description": "Inequality Comparison (!=)"
+    },
+    "Greater_Or_Equal_Comparison": {
+        "prefix": "ge",
+        "body": [
+            "BOTH SAEM ${1:first} AN BIGGR OF $1 AN ${0:second}"
+        ],
+        "description": "Greater Or Equal Comparison (>=)"
+    },
+    "Less_Or_Equal_Comparison": {
+        "prefix": "le",
+        "body": [
+            "BOTH SAEM ${1:first} AN SMALLR OF $1 AN ${0:second}"
+        ],
+        "description": "Less Or Equal Comparison (<=)"
+    },
+    "Greater_Than_Comparison": {
+        "prefix": "gt",
+        "body": [
+            "DIFFRINT ${1:first} AN SMALLR OF $1 AN ${0:second}"
+        ],
+        "description": "Greater Than Comparison (>)"
+    },
+    "Less_Than_Comparison": {
+        "prefix": "lt",
+        "body": [
+            "DIFFRINT ${1:first} AN BIGGR OF $1 AN ${0:second}"
+        ],
+        "description": "Less Than Comparison (<)"
+    },
+    "And_Operator": {
+        "prefix": "and",
+        "body": [
+            "BOTH OF ${1:first} AN ${0:second}"
+        ],
+        "description": "And Operator"
+    },
+    "Or_Operator": {
+        "prefix": "or",
+        "body": [
+            "EITHER OF ${1:first} AN ${0:second}"
+        ],
+        "description": "Or Operator"
+    },
+    "Xor_Operator": {
+        "prefix": "xor",
+        "body": [
+            "WON OF ${1:first} AN ${0:second}"
+        ],
+        "description": "Xor Operator"
+    },
+    "Not_Operator": {
+        "prefix": "not",
+        "body": [
+            "NOT ${0:value}"
+        ],
+        "description": "Not Operator"
+    },
+    "All_Operator": {
+        "prefix": "all",
+        "body": [
+            "ALL OF ${1:values} MKAY$0"
+        ],
+        "description": "Logical Aggregation Operator All"
+    },
+    "Any_Operator": {
+        "prefix": "any",
+        "body": [
+            "ANY OF ${1:values} MKAY$0"
+        ],
+        "description": "Logical Aggregation Operator Any"
+    }
+}
