@@ -1,11 +1,11 @@
-# LOLCODE Support for Visual Studio Code
+# LOLCODE Language Support for Visual Studio Code
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://vsmarketplacebadge.apphb.com/version/natiiix.lolcode.svg)
 ![Installs](https://vsmarketplacebadge.apphb.com/installs/natiiix.lolcode.svg)
 ![Rating](https://vsmarketplacebadge.apphb.com/rating-short/natiiix.lolcode.svg)
 
-An extension for VS Code which provides support for the LOLCODE esoteric language.
+An extension for [VS Code](https://code.visualstudio.com/) which provides support for the [LOLCODE esoteric language](https://lolcode.org/).
 
 ![Screenshot](images/animation.gif)
 
